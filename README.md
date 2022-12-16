@@ -23,13 +23,13 @@ Implementation of transfer learning approach via the Pytorch
  via a transfer learning approach from the state-of-the-art YOLOv7 architecture for the purpose of automating on-shore U.S. wind turbine count estimations.
 <br />&nbsp;&nbsp;&nbsp;&nbsp;Current state-of-the-art databases which monitor wind turbine development in the United States such as the [U.S. Wind Turbine Database](https://eerscmap.usgs.gov/uswtdb/) are capable of exceptional accuracy, but suffer from poor temporal resolution (updated quarterly). This model, when paired with sufficiently recent satellite imagery data, can provide leading estimates of U.S. on-shore wind resources for both foreign and domestic investors, and government officials, providing value especially within regions of ongoing development.
 
-## Performance Metrics
+## Model Performance
 
  <img src="https://user-images.githubusercontent.com/99038816/202049644-0f09543a-80b0-433e-889b-795b815eaf94.png" width=60% height=60%>
  
  **Figure 2**: _Model precision, recall, and mean Average Precision (mAP) as evaluated during training._
 
-The model...
+The final, trained model achieves 0.651 mean average precision (mAP) at 0.5 intersection-over-union (IoU), resulting in a Mean Absolute Error (MAE), of 0.97 or ~1.00 turbine per image inferenced upon. Note that the number of turbines in a given training image ranged from 0 to 36, and that the MAE increases significantly above 10 turbines per image. Given the total number of turbines in the test set (407), the model was able to correctly detect 358 of 407 resulting in an 88% detection rate, however, as stated previously, the model performed demonstrably better at detecting turbines within smaller scale imagery containing fewer turbines.
 
 
 ## Project Organization

@@ -8,7 +8,7 @@ Implementation of transfer learning approach via the Pytorch
 
 ## Table of Contents
 
-- [Overview](#overview)
+- [Overview & Problem Addressed](#overview-&-problem-addressed)
 - [Project Organization](#project-organization)
 - [Built With](#built-with)
 - [Contact](#contact)

@@ -4,7 +4,7 @@
 Implementation of transfer learning approach via the Pytorch 
 [YOLOv7 object detection architecture](https://github.com/WongKinYiu/yolov7) to detect and rapidly quantify wind turbines in raw satellite imagery.
 <br /><br />
-Image: Turbine detections shown in a wind-producing region of the Southwest United States.
+**Image**: _Turbine detections shown in a wind-producing region of the Southwest United States._
 <img src="https://user-images.githubusercontent.com/99038816/202049025-25310606-16aa-4ecc-be39-44bccf73579d.jpg" width=60% height=60%>
 
 ## Table of Contents

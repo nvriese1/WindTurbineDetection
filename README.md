@@ -10,6 +10,7 @@ Implementation of transfer learning approach via the Pytorch
 ## Table of Contents
 
 - [Overview & Problem Addressed](#overview-&-problem-addressed)
+- [Performance Metrics](#performance-metrics)
 - [Project Organization](#project-organization)
 - [Built With](#built-with)
 - [Contact](#contact)
@@ -22,11 +23,16 @@ Implementation of transfer learning approach via the Pytorch
  via a transfer learning approach from the state-of-the-art YOLOv7 architecture for the purpose of automating on-shore U.S. wind turbine count estimations.
 <br />&nbsp;&nbsp;&nbsp;&nbsp;Current state-of-the-art databases which monitor wind turbine development in the United States such as the [U.S. Wind Turbine Database](https://eerscmap.usgs.gov/uswtdb/) are capable of exceptional accuracy, but suffer from poor temporal resolution (updated quarterly). This model, when paired with sufficiently recent satellite imagery data, can provide leading estimates of U.S. on-shore wind resources for both foreign and domestic investors, and government officials, providing value especially within regions of ongoing development.
 <br /><br />
- 
+
+## Performance Metrics
+
  <img src="https://user-images.githubusercontent.com/99038816/202049644-0f09543a-80b0-433e-889b-795b815eaf94.png" width=60% height=60%>
  
  **Figure 2**: _Model precision, recall, and mean Average Precision (mAP) as evaluated during training._
- 
+
+The model...
+
+
 ## Project Organization
 
     ├── LICENSE

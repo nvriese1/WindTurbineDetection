@@ -7,7 +7,8 @@ Implementation of transfer learning approach via the Pytorch
 
 <img src="https://user-images.githubusercontent.com/99038816/202049025-25310606-16aa-4ecc-be39-44bccf73579d.jpg" width=60% height=60%>
 **Figure 1**: _Turbine detections shown in a wind-producing region of the Southwest United States._
-<br />
+
+<br /><br />
 ## Table of Contents
 
 - [Overview & Problem Addressed](#overview-&-problem-addressed)

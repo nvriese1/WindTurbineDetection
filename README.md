@@ -22,7 +22,6 @@ Implementation of transfer learning approach via the Pytorch
  and [NAIP](https://datagateway.nrcs.usda.gov/GDGHome_DirectDownLoad.aspx) satellite imagery, a wind turbine object detection model was developed
  via a transfer learning approach from the state-of-the-art YOLOv7 architecture for the purpose of automating on-shore U.S. wind turbine count estimations.
 <br />&nbsp;&nbsp;&nbsp;&nbsp;Current state-of-the-art databases which monitor wind turbine development in the United States such as the [U.S. Wind Turbine Database](https://eerscmap.usgs.gov/uswtdb/) are capable of exceptional accuracy, but suffer from poor temporal resolution (updated quarterly). This model, when paired with sufficiently recent satellite imagery data, can provide leading estimates of U.S. on-shore wind resources for both foreign and domestic investors, and government officials, providing value especially within regions of ongoing development.
-<br /><br />
 
 ## Performance Metrics
 

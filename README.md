@@ -29,8 +29,8 @@ Implementation of transfer learning approach via the Pytorch
  
  **Figure 2**: _Model precision, recall, and mean Average Precision (mAP) as evaluated during training._
 
-The final, trained model achieves 0.651 mean average precision (mAP) at 0.5 intersection-over-union (IoU), resulting in a Mean Absolute Error (MAE), of 0.97 or ~1.00 turbine per image inferenced upon. Note that the number of turbines in a given training image ranged from 0 to 36, and that the MAE increases significantly above 10 turbines per image. Given the total number of turbines in the test set (407), the model was able to correctly detect 358 of 407 resulting in an 88% detection rate, however, as stated previously, the model performed demonstrably better at detecting turbines within smaller scale imagery containing fewer turbines.
-
+&nbsp;&nbsp;&nbsp;&nbsp;The final, trained model achieves 0.651 mean average precision (mAP) at 0.5 intersection-over-union (IoU), resulting in a Mean Absolute Error (MAE), of 0.97 or ~1.00 turbine per image inferenced upon. Note that the number of turbines in a given training image ranged from 0 to 36, and that the MAE increases significantly above 10 turbines per image. Given the total number of turbines in the test set (407), the model was able to correctly detect 358 of 407 resulting in an 88% detection rate, however, the model performed demonstrably better at detecting turbines within smaller scale imagery containing fewer turbines. 
+<br />&nbsp;&nbsp;&nbsp;&nbsp;To address this, future model development could include significant training dataset augmentation. Examples of this may be increased training image mosaic augmentation to improve small-object detection rates, the addition of off-shore wind turbine images, or the addition of biome classification to identify backgrounds within which the model performs more poorly. Other development could include new class additions (ex. solar arrays) for use cases related to total renewables generation capacity estimation.
 
 ## Project Organization
 

@@ -24,8 +24,9 @@ Implementation of transfer learning approach via the Pytorch
 <br /><br />
  
  <img src="https://user-images.githubusercontent.com/99038816/202049644-0f09543a-80b0-433e-889b-795b815eaf94.png" width=60% height=60%>
+ 
  **Figure 2**: _Model precision, recall, and mean Average Precision (mAP) as evaluated during training._
- <br />
+ 
 ## Project Organization
 
     ├── LICENSE

@@ -1,0 +1,5 @@
+names:
+- turbine
+nc: 1
+train: data/cleaned/train/images
+val: data/cleaned/valid/images

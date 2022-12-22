@@ -71,7 +71,7 @@ Implementation of transfer learning approach via the Pytorch
     │            └── **metrics**                                 <- **Folder containing model performance metrics.**
     |
     ├── reports                                                  <- Generated analysis as PPTX.
-    │   └── turbine_detection_presentation.pptx   
+    │   └── TurbineDetection_SlideDeck.pptx   
     │ 
     ├── src                                                      <- Source code from notebooks developed for this project.
         └── 1.0-TurbineDetection-data-wrangling.py
